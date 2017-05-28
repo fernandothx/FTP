@@ -1,24 +1,22 @@
-# Online FTP / Amazon S3 Filebrowser 
-[![Build Status](https://travis-ci.org/OFFLINE-GmbH/Online-FTP.svg?branch=master)](https://travis-ci.org/OFFLINE-GmbH/Online-FTP)
+Online FTP / Amazon S3 Filebrowser
 
-Simple file browser built with Laravel and Vue.
+Status da compilação
 
-## Installation
+Navegador de arquivos simples construído com Laravel e Vue.
 
-1. Clone this repository to your machine.
-1. `composer install`
-1. `yarn` or `npm install`
-1. `gulp` or `gulp --production`
+Instalação
 
-### Max upload size
+Clone este repositório para a sua máquina.
+Instalação do compositor
+Instalação do fio ou do npm
+Gulp ou gulp --produção
+Tamanho máximo do upload
 
-Make sure to restrict the maximum upload size in your php config as well as in the `.env` file.
+Certifique-se de restringir o tamanho máximo de upload em sua configuração php, bem como no arquivo .env.
 
-### Filesystem cleanup
-Setup a cronjob to remove old files from your filesystem or trigger it manually.
+Limpeza do sistema de arquivos
 
-```
-php artisan onlineftp:cleanup
-```
+Configurar um cronjob para remover arquivos antigos de seu sistema de arquivos ou acioná-lo manualmente.
 
-See https://laravel.com/docs/5.3/scheduling#introduction on how to setup the task scheduler cronjob.
+Php artisan onlineftp: limpeza
+Consulte https://laravel.com/docs/5.3/scheduling#introduction sobre como configurar o agendador de tarefas cronjob.
